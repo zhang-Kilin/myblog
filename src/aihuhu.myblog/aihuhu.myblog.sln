@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{27BE75CB-E064-49BA-BE2B-6441250B6920}"
+	ProjectSection(SolutionItems) = preProject
+		..\libs\Ctrip.Framework.MVC.dll = ..\libs\Ctrip.Framework.MVC.dll
+		..\libs\Ctrip.Framework.MVC.pdb = ..\libs\Ctrip.Framework.MVC.pdb
+		..\libs\System.Web.Mvc.dll = ..\libs\System.Web.Mvc.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unity2", "Unity2", "{64855750-0216-40D4-90A7-94C6B97933BC}"
+	ProjectSection(SolutionItems) = preProject
+		..\libs\Unity2\Microsoft.Practices.ServiceLocation.dll = ..\libs\Unity2\Microsoft.Practices.ServiceLocation.dll
+		..\libs\Unity2\Microsoft.Practices.Unity.Configuration.dll = ..\libs\Unity2\Microsoft.Practices.Unity.Configuration.dll
+		..\libs\Unity2\Microsoft.Practices.Unity.Configuration.dll.CodeAnalysisLog.xml = ..\libs\Unity2\Microsoft.Practices.Unity.Configuration.dll.CodeAnalysisLog.xml
+		..\libs\Unity2\Microsoft.Practices.Unity.Configuration.dll.lastcodeanalysissucceeded = ..\libs\Unity2\Microsoft.Practices.Unity.Configuration.dll.lastcodeanalysissucceeded
+		..\libs\Unity2\Microsoft.Practices.Unity.Configuration.pdb = ..\libs\Unity2\Microsoft.Practices.Unity.Configuration.pdb
+		..\libs\Unity2\Microsoft.Practices.Unity.Configuration.XML = ..\libs\Unity2\Microsoft.Practices.Unity.Configuration.XML
+		..\libs\Unity2\Microsoft.Practices.Unity.dll = ..\libs\Unity2\Microsoft.Practices.Unity.dll
+		..\libs\Unity2\Microsoft.Practices.Unity.Interception.Configuration.dll = ..\libs\Unity2\Microsoft.Practices.Unity.Interception.Configuration.dll
+		..\libs\Unity2\Microsoft.Practices.Unity.Interception.Configuration.pdb = ..\libs\Unity2\Microsoft.Practices.Unity.Interception.Configuration.pdb
+		..\libs\Unity2\Microsoft.Practices.Unity.Interception.Configuration.xml = ..\libs\Unity2\Microsoft.Practices.Unity.Interception.Configuration.xml
+		..\libs\Unity2\Microsoft.Practices.Unity.Interception.dll = ..\libs\Unity2\Microsoft.Practices.Unity.Interception.dll
+		..\libs\Unity2\Microsoft.Practices.Unity.Interception.pdb = ..\libs\Unity2\Microsoft.Practices.Unity.Interception.pdb
+		..\libs\Unity2\Microsoft.Practices.Unity.Interception.xml = ..\libs\Unity2\Microsoft.Practices.Unity.Interception.xml
+		..\libs\Unity2\Microsoft.Practices.Unity.pdb = ..\libs\Unity2\Microsoft.Practices.Unity.pdb
+		..\libs\Unity2\Microsoft.Practices.Unity.xml = ..\libs\Unity2\Microsoft.Practices.Unity.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log4net", "log4net", "{1FE5A389-D51B-4047-AD60-2E333C1F42E6}"
+	ProjectSection(SolutionItems) = preProject
+		..\libs\log4net\log4net.dll = ..\libs\log4net\log4net.dll
+		..\libs\log4net\log4net.xml = ..\libs\log4net\log4net.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aihuhu.myblog.resource", "aihuhu.myblog.resource\aihuhu.myblog.resource.csproj", "{E678CAB3-F6D6-49FD-8818-D2C73A5232D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aihuhu.myblog.web", "aihuhu.myblog.web\aihuhu.myblog.web.csproj", "{CF6DC1D0-6CC6-4481-A4D3-182CEA5D079F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ctrip.Framework.MVC", "..\..\..\Ctrip.Framework.MVC\Ctrip.Framework.MVC\Ctrip.Framework.MVC.csproj", "{D5DE824E-D839-4443-8D6D-BD85CC4A293C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E678CAB3-F6D6-49FD-8818-D2C73A5232D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E678CAB3-F6D6-49FD-8818-D2C73A5232D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E678CAB3-F6D6-49FD-8818-D2C73A5232D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E678CAB3-F6D6-49FD-8818-D2C73A5232D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6DC1D0-6CC6-4481-A4D3-182CEA5D079F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6DC1D0-6CC6-4481-A4D3-182CEA5D079F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6DC1D0-6CC6-4481-A4D3-182CEA5D079F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6DC1D0-6CC6-4481-A4D3-182CEA5D079F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DE824E-D839-4443-8D6D-BD85CC4A293C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DE824E-D839-4443-8D6D-BD85CC4A293C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DE824E-D839-4443-8D6D-BD85CC4A293C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DE824E-D839-4443-8D6D-BD85CC4A293C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64855750-0216-40D4-90A7-94C6B97933BC} = {27BE75CB-E064-49BA-BE2B-6441250B6920}
+		{1FE5A389-D51B-4047-AD60-2E333C1F42E6} = {27BE75CB-E064-49BA-BE2B-6441250B6920}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿@{
+    Layout = null;    
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    @Ctrip.Framework.MVC.IncludeHelper.Include("style.css")
+    @Ctrip.Framework.MVC.IncludeHelper.Include("jquery")
+    <script type="text/javascript">
+        $(function () {
+            $("#title").text("Ctrip.Framework.Mvc Excample");
+        });
+    </script>
+</head>
+<body>
+    <h1 id="title">
+    </h1>
+    <h3>Hello world!</h3>
+    <div>
+        <p>include style.css :@Ctrip.Framework.MVC.IncludeHelper.Include("style.css").ToHtmlString()</p>
+        <p>include jquery.js :@Ctrip.Framework.MVC.IncludeHelper.Include("jquery").ToHtmlString()</p>
+        <p>include references source :@Ctrip.Framework.MVC.IncludeHelper.Include("baiduJquery").ToHtmlString()</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+﻿@{
+    Layout = null;
+}
+@Ctrip.Framework.MVC.IncludeHelper.Include("index.css")
+@Ctrip.Framework.MVC.IncludeHelper.Include("licious")
+<div class="container">
+    <header>
+        <h1>Welcome <span>to Kilin's home.</span></h1>
+        <h2>I am working hard to building the website.</h2>
+    </header>
+</div>
+    <div class="content">
+        <div id="device" class="gridalicious">
+            <div class="galcolumn" id="item0JpnhT" style="width: 24.6279761904762%; padding-left: 20px; padding-bottom: 20px; float: left; box-sizing: border-box;">
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/1.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/5.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/9.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/6.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+            </div>
+            <div class="galcolumn" id="item1JpnhT" style="width: 24.6279761904762%; padding-left: 20px; padding-bottom: 20px; float: left; box-sizing: border-box;">
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/2.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/6.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/10.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/7.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+            </div>
+            <div class="galcolumn" id="item2JpnhT" style="width: 24.6279761904762%; padding-left: 20px; padding-bottom: 20px; float: left; box-sizing: border-box;">
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/3.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/7.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/4.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/8.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+            </div>
+            <div class="galcolumn" id="item3JpnhT" style="width: 24.6279761904762%; padding-left: 20px; padding-bottom: 20px; float: left; box-sizing: border-box;">
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/4.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/8.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+                <div class="item" style="margin-bottom: 20px; zoom: 1; opacity: 1;">
+                    <img src="static/myblog/images/5.jpg" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    <p></p>
+                </div>
+            </div>
+            <div id="clearJpnhT" style="clear: both; height: 0px; width: 0px; display: block;"></div>
+        </div>
+    </div>
+    <div id="point" style="position:fixed;right:0px;top:800px;background:#0727e9;color:#ffffff"></div>
+    <script type="text/javascript">
+        //模拟滚动条滚动时随机添加内容
+        var makeboxes = function() {
+            var boxes = new Array;
+            var randTxt = [''];
+            var amount = 8;//Math.floor(Math.random()*10);
+            for(i=1;i<amount;i++){
+                num = Math.floor(Math.random()*randTxt.length);
+                div = $('<div></div>').addClass('item');
+                content = "<img src='static/myblog/images/"+i+".jpg'/><p>"+randTxt[num]+"</p>";
+                div.append(content);
+                boxes.push(div);
+            }
+            return boxes;
+        }
+        $(document.body).css({
+            "overflow":"auto"
+        });
+        //滚动条事件
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if(($(window).scrollTop() + $(window).height()) == $(document).height() )
+                {
+                    $.get("home/load?" + new Date().getTime(), function (data) {
+                        if (data && data.images) {
+                            var baseUrl = data.baseUrl;
+                            var arr = [];
+                            $(data.images).each(function () {
+                                var div = $("<div class='item'></div>").append("<img src='" + baseUrl + this.url + "'/><p>" + this.title + "</p>");
+                                arr.push(div);
+                            });
+                            $("#device").gridalicious('append', arr);
+                        }
+                    }, "json");
+                }
+            });
+            //主要部分
+            $("#device").gridalicious({
+                gutter: 20,
+                width: 300,
+                animate: true,
+                animationOptions: {
+                    speed: 150,
+                    duration: 400,
+                    complete:function(data){
+                        //console.log("酷站代码 - www.5icool.org");
+                    }
+                },
+            });
+        });
+    </script>
